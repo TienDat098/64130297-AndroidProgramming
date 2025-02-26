@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         try {
             float weight = Float.parseFloat(weightString);
             float height = Float.parseFloat(heightString) / 100; // Chuyển cm sang m
-            
+
             if (height <= 0) {
                 Toast.makeText(this, "Chiều cao phải lớn hơn 0!", Toast.LENGTH_SHORT).show();
                 return;
