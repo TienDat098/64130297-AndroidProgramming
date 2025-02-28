@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E0F7FA"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tính Chu Vi Và Diện Tích Hình Tròn"
+        android:textSize="24dp"
+        android:textColor="#00796B"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"/>
+    <!-- Nhập bán kính -->
+    <EditText
+        android:id="@+id/edtBanKinh"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Nhập bán kính"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:layout_marginTop="40dp"/>
+
+    <!-- Nút tính toán -->
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Tính toán"
+        android:backgroundTint="#00796B"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="30dp"/>
+
+    <!-- Nút xóa -->
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Xóa"
+        android:backgroundTint="#D32F2F"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Kết quả chu vi -->
+    <EditText
+        android:id="@+id/edtChuVi"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Chu vi"
+        android:inputType="text"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:enabled="false"/>
+    <!-- Kết quả diện tích -->
+    <EditText
+        android:id="@+id/edtDienTich"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Diện tích"
+        android:inputType="text"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:enabled="false"/>
+    <ImageView
+        android:id="@+id/imgCircle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"/>
+
+</LinearLayout>
