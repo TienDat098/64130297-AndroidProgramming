@@ -10,60 +10,61 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    // Khai báo các điều khiển giao diện
-    EditText editTextWeight;
-    EditText editTextHeight;
-    EditText editTextKetQua;
-    Button nutTinh;
-
-    public void TimDieuKhien() {
-        editTextWeight = findViewById(R.id.edtWeight);
-        editTextHeight = findViewById(R.id.edtHeight);
-        editTextKetQua = findViewById(R.id.edtKetQua);
-        nutTinh = findViewById(R.id.btnCalculate);
-    }
+    private EditText editTextWeight, editTextHeight;
+    private TextView textViewResult;
+    private Button btnCalculate;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TimDieuKhien();
 
-        // Gán sự kiện cho nút tính toán
-        nutTinh.setOnClickListener(new View.OnClickListener() {
+        editTextWeight = findViewById(R.id.edtWeight);
+        editTextHeight = findViewById(R.id.edtHeight);
+        textViewResult = findViewById(R.id.edtKetQua);
+        btnCalculate = findViewById(R.id.btnCalculate);
+
+        btnCalculate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                TinhToan();
+                calculateBMI();
             }
         });
     }
 
-    public void TinhToan() {
-        // Lấy dữ liệu từ 2 ô nhập
-        String weightString = editTextWeight.getText().toString();
-        String heightString = editTextHeight.getText().toString();
+    private void calculateBMI() {
+        String weightStr = editTextWeight.getText().toString();
+        String heightStr = editTextHeight.getText().toString();
 
-        if (weightString.isEmpty() || heightString.isEmpty()) {
+        if (weightStr.isEmpty() || heightStr.isEmpty()) {
             Toast.makeText(this, "Vui lòng nhập đầy đủ cân nặng và chiều cao!", Toast.LENGTH_SHORT).show();
             return;
         }
 
         try {
-            float weight = Float.parseFloat(weightString);
-            float height = Float.parseFloat(heightString) / 100; // Chuyển cm sang m
+            float weight = Float.parseFloat(weightStr);
+            float height = Float.parseFloat(heightStr) / 100;
 
-            if (height <= 0) {
-                Toast.makeText(this, "Chiều cao phải lớn hơn 0!", Toast.LENGTH_SHORT).show();
+            if (height <= 0 || weight <= 0) {
+                Toast.makeText(this, "Giá trị nhập vào không hợp lệ!", Toast.LENGTH_SHORT).show();
                 return;
             }
 
-            // Tính BMI
             float bmi = weight / (height * height);
-
-            // Hiển thị kết quả
-            editTextKetQua.setText(String.format("BMI: %.2f", bmi));
+            String category = classifyBMI(bmi);
+            textViewResult.setText(String.format("BMI: %.2f\nPhân loại: %s", bmi, category));
         } catch (NumberFormatException e) {
             Toast.makeText(this, "Vui lòng nhập số hợp lệ!", Toast.LENGTH_SHORT).show();
         }
+    }
+
+    private String classifyBMI(float bmi) {
+        if (bmi < 18.5) return "Cân nặng thấp (Gầy)";
+        else if (bmi < 23) return "Bình thường (IDI & WPRO)";
+        else if (bmi < 25) return "Thừa cân (IDI & WPRO)";
+        else if (bmi < 30) return "Tiền béo phì";
+        else if (bmi < 35) return "Béo phì độ I";
+        else if (bmi < 40) return "Béo phì độ II";
+        else return "Béo phì độ III";
     }
 }
