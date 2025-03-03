@@ -1,4 +1,4 @@
-<h2 align="center">LẬP TRÌNH THIẾT BỊ DI ĐỘNG</h2>
+<h2 align="center">LẬP TRÌNH THIẾT BỊ DI ĐỘNG-64130297_Androidprogramming</h2>
 Nơi lưu trữ các bài tập thực hành
 
 
