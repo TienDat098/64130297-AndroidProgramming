@@ -25,7 +25,7 @@
 </div>
 
 <div>
-  <h4>EX: <a href = "https://github.com/TienDat098/64130297-AndroidProgramming/tree/main/AppTinhBMI/app/src/main">EX:App tính_BMI</a></h4>
+  <h4>EX: <a href = "https://github.com/TienDat098/64130297-AndroidProgramming/tree/main/AppTinhBMI/app/src/main">App tính_BMI</a></h4>
   <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/anhBMI.png" width = "200">
 </div>
 
