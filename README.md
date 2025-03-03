@@ -1,4 +1,4 @@
-# 64130297-AndroidProgramming
+<h2 align="center">LẬP TRÌNH THIẾT BỊ DI ĐỘNG<br>64130297-AndroidProgramming</h2>
 Nơi lưu trữ các bài tập thực hành
 
 
