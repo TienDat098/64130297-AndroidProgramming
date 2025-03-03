@@ -1,6 +1,5 @@
-<h2 align="center">LẬP TRÌNH THIẾT BỊ DI ĐỘNG-64130297_Androidprogramming</h2>
-Nơi lưu trữ các bài tập thực hành
-
+<h2 align="center">LẬP TRÌNH THIẾT BỊ DI ĐỘNG-64130297</h2>
+<h2 align="left">Nơi lưu trữ các bài tập thực hành</h2>
 
 EX1:
 
