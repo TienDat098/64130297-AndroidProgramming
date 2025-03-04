@@ -40,6 +40,11 @@
   <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/anhcvdtht.png" width = "200">
 </div>
 
+<div>
+  <h4>EX5: <a href = "https://github.com/TienDat098/64130297-AndroidProgramming/tree/main/App_AddSubMulDiv_ListenerAnonymous/app/src/main">App_AddSubMulDiv_AnDanh</a></h4>
+  <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/anhmaytinh2.png" width = "200">
+    <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/anhmaytinh3.png" width = "200">
+</div>
 
 
 
