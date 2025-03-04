@@ -40,15 +40,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TimDieuKhien();
         //Gắn bộ lắng nghe sự kiện và code xử lý cho từng nút
-        View.OnClickListener boLangNgheCong = new View.OnClickListener() {
+        nutCong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-            // gọi hàm xử lý cộng
                 XULY_CONG();
-
             }
-        };
-        nutCong.setOnClickListener(boLangNgheCong);
+        });
         nutTru.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
