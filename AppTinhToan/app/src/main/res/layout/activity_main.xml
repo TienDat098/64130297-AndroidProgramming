@@ -14,12 +14,13 @@
         android:orientation="horizontal"
         android:layout_margin="15dp"
         android:layout_height="50dp">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Số thứ nhất"
-            android:textSize="18dp"
-            android:textColor="#E91E63">
+            android:textColor="#E91E63"
+            android:textSize="18dp">
 
         </TextView>
 
