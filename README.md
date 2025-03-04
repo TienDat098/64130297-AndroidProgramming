@@ -1,42 +1,48 @@
 <h2 align="center">LẬP TRÌNH THIẾT BỊ DI ĐỘNG-64130297</h2>
 <h2 align="left">Nơi lưu trữ các bài tập thực hành</h2>
 
-EX1:
 
-![Image](https://github.com/user-attachments/assets/e828a219-f981-41ef-a554-b2ea931a4ad8)
+###
+<div>
+  <h4>EX1: <a href = "https://github.com/TienDat098/64130297-AndroidProgramming/tree/main/HelloAndroid/app/src/main">Ex1_Hello</a></h4>
+  <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/anhex1.png" width = "200">
+</div>
 
-EX2_LinearLayout:
+<div>
+  <h4>EX2: <a href = "https://github.com/TienDat098/64130297-AndroidProgramming/tree/main/VD1_EX2/app/src/main">Ex2_LinearLayout</a></h4>
+  <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/ex2.png" width = "200">
+</div>
 
-
-![Image](https://github.com/user-attachments/assets/05bf16dd-32ab-4a6f-bbbe-2765ba41c7db)
-
-
-EX3:APP_TínhTổng:
-
-![Image](https://github.com/user-attachments/assets/0ec01dd4-8b8b-422b-9310-ce70267d5a7c)
-
-
-EX4:App_AddSubMulDiv_Onclick
-
-
-![Image](https://github.com/user-attachments/assets/a9b31aa6-8ef6-4495-8cbb-09c2dfc785f2)
+<div>
+  <h4>EX3: <a href = "https://github.com/TienDat098/64130297-AndroidProgramming/tree/main/AppCong/app/src/main">APP_TínhTổng</a></h4>
+  <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/anhcong.png" width = "200">
+</div>
 
 
-EX:App tính_BMI
+<div>
+  <h4>EX4: <a href = "https://github.com/TienDat098/64130297-AndroidProgramming/tree/main/AppTinhToan/app/src/main">App_AddSubMulDiv_Onclick</a></h4>
+  <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/anhtinhtoan.png" width = "200">
+</div>
+
+<div>
+  <h4>EX: <a href = "https://github.com/TienDat098/64130297-AndroidProgramming/tree/main/AppTinhBMI/app/src/main">App tính_BMI</a></h4>
+  <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/anhBMI.png" width = "200">
+</div>
 
 
-![Image](https://github.com/user-attachments/assets/5ba2029c-5f0e-4b2d-9e64-2f3e110ff024)
+<div>
+  <h4>EX: <a href = "https://github.com/TienDat098/64130297-AndroidProgramming/tree/main/AppDoiDonViDo/app/src/main">App Đổi đơn vị đo thể tích</a></h4>
+  <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/anhdonvido.png" width = "200">
+</div>
+
+<div>
+  <h4>EX: <a href = "https://github.com/TienDat098/64130297-AndroidProgramming/tree/main/AppTinhCV_DT_Circle/app/src/main">App tính chu vi , diện tích hình tròn</a></h4>
+  <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/anhcvdtht.png" width = "200">
+</div>
 
 
-EX:App Đổi đơn vị đo thể tích
 
 
-![Image](https://github.com/user-attachments/assets/656eade2-6bab-49e9-a904-46de54209e69)
 
-
-EX:App tính chu vi , diện tích hình tròn
-
-
-![Image](https://github.com/user-attachments/assets/a3d3d6de-6aeb-4853-be5d-f0fa0047914f)
 
 
