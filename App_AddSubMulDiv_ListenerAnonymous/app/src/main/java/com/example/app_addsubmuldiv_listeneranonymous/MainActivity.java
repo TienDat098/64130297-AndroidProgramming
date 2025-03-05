@@ -31,8 +31,6 @@ public class MainActivity extends AppCompatActivity {
         nutNhan = findViewById(R.id.btnNhan);
         nutChia = findViewById(R.id.btnChia);
         imageView = findViewById(R.id.myImageView);
-
-
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
