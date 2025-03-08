@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#92D050"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFCC00">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="NGUYỄN TIẾN ĐẠT"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="#67500B"
+                    android:padding="20dp"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TRANG CHỦ"
+            android:textSize="30dp"
+            android:layout_marginTop="100dp"
+            android:textStyle="bold"
+            android:padding="20dp"/>
+
+        <Button
+            android:id="@+id/btnChuyenTrang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ĐĂNG NHẬP"
+            android:padding="50px"
+            android:layout_marginTop="80dp"
+            android:backgroundTint="#304FFE"
+            android:textColor="@color/white"
+            android:textSize="40dp"/>
+</LinearLayout>
