@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cardview_shadow_start_color">#E6F0FA</color> <!-- Màu xanh nhạt cho ô đáp án -->
+    <color name="design_default_color_primary">#6A1B9A</color> <!-- Màu tím đậm cho nút CHECK -->
+    <color name="material_dynamic_neutral99">#757575</color> <!-- Màu xám nhạt -->
+    <color name="design_default_color_background">#FFFFFF</color> <!-- Màu trắng -->
+    <color name="design_default_color_secondary_variant">#B39DDB</color> <!-- Màu tím nhạt -->
+    <color name="material_dynamic_tertiary10">#F5F5F5</color> <!-- Màu xám rất nhạt -->
+    <color name="cardview_light_background">#B0BEC5</color> <!-- Màu xám nhạt -->
+    <color name="material_dynamic_tertiary100">#4A148C</color> <!-- Màu tím đậm -->
+</resources>
