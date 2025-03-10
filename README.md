@@ -68,7 +68,6 @@
 
 <div>
   <h4>EX_Them: <a href = "https://github.com/TienDat098/64130297-AndroidProgramming/tree/main/EX_Them/app/src/main">Cuu_chuong</a></h4>
-  <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/exthem1.png" width = "200">
 
 </div>
 
