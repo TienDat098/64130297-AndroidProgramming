@@ -12,9 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="DANH SÁCH ĐỘNG VẬT"
-        android:textSize="37dp"
+        android:textSize="37sp"
         android:gravity="center_horizontal"
-        android:background="#949B52"/>
+        android:background="#949B52"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
     <ListView
         android:id="@+id/LVAnimal"
