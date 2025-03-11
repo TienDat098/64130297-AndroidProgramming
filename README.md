@@ -53,6 +53,24 @@
 </div>
 
 
+<div>
+  <h4>EX6: <a href = "https://github.com/TienDat098/64130297-AndroidProgramming/tree/main/ManHinhDonGian/app/src/main">IntentDonGian</a></h4>
+  <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/mandongian1.png" width = "200">
+  <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/mandongian2.png" width = "200">
+</div>
+
+<div>
+  <h4>EX7: <a href = "https://github.com/TienDat098/64130297-AndroidProgramming/tree/main/ChuyenManHinhQuiz/app/src/main">IntentLogin</a></h4>
+  <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/Intent1.png" width = "200">
+  <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/Intent2.png" width = "200">
+  <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/Intent3.png" width = "200">
+</div>
+
+<div>
+  <h4>EX_Them: <a href = "https://github.com/TienDat098/64130297-AndroidProgramming/tree/main/EX_Them/app/src/main">Cuu_chuong</a></h4>
+
+</div>
+
 
 
 
