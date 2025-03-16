@@ -8,34 +8,34 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".ClothingActivity">
-    
-    
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/clothTittle"
-        android:text="Clothing"
+        android:id="@+id/electTittle"
+        android:text="Electronics"
         android:textSize="36sp"
         android:layout_marginTop="40dp"
         android:fontFamily="@font/poppins_semibold"
         android:textColor="@color/lavender"
         android:layout_centerHorizontal="true"/>
-    
-    
+
+
     <ImageView
         android:layout_width="350dp"
         android:layout_height="350dp"
-        android:id="@+id/clothImage"
-        android:layout_below="@+id/clothTittle"
+        android:id="@+id/electImage"
+        android:layout_below="@+id/electTittle"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/dress1"/>
+        android:src="@drawable/computer1"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/clothMoTa"
-        android:text="Đầm nữ cao cấp, size S - XL"
+        android:id="@+id/electMoTa"
+        android:text="Màn hình máy tính"
         android:textSize="28sp"
-        android:layout_below="@+id/clothImage"
+        android:layout_below="@+id/electImage"
         android:layout_marginTop="16dp"
         android:layout_centerHorizontal="true"
         android:textColor="@color/lavender"/>
@@ -43,11 +43,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/clothGia"
-        android:text="₫499.000"
+        android:id="@+id/electGia"
+        android:text="₫1.499.000đ"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:layout_below="@+id/clothMoTa"
+        android:layout_below="@+id/electMoTa"
         android:textSize="30sp"/>
 
 
@@ -59,8 +59,7 @@
         android:textSize="20sp"
         android:textColor="@color/white"
         android:backgroundTint="#4CAF50"
-        android:layout_below="@id/clothGia"
+        android:layout_below="@id/electGia"
         android:layout_marginTop="25dp"
         android:layout_centerHorizontal="true"/>
-
 </RelativeLayout>
