@@ -7,32 +7,30 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity" >
-    
+
     <LinearLayout
         android:layout_width="match_parent"
         android:padding="5dp"
         android:orientation="horizontal"
         android:layout_margin="15dp"
-        android:layout_height="50dp">
+        android:layout_height="50dp"
+        android:gravity="center_vertical">
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
             android:text="Số thứ nhất"
             android:textColor="#E91E63"
-            android:textSize="18dp">
-
-        </TextView>
+            android:textSize="18dp" />
 
         <EditText
             android:id="@+id/edtSo1"
-            android:layout_marginTop="1dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Mời nhập một con số ở đây">
-
-        </EditText>
-
+            android:layout_height="match_parent"
+            android:hint="Mời nhập một con số ở đây"
+            android:gravity="center_vertical|start"
+            android:paddingLeft="10dp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -40,26 +38,26 @@
         android:padding="5dp"
         android:orientation="horizontal"
         android:layout_margin="15dp"
-        android:layout_height="50dp">
+        android:layout_height="50dp"
+        android:gravity="center_vertical">
+
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
             android:text="Số thứ hai"
             android:textSize="18dp"
-            android:textColor="#E91E63">
-
-        </TextView>
+            android:textColor="#E91E63"/>
 
         <EditText
             android:id="@+id/edtSo2"
-            android:paddingLeft="10dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Mời nhập một con số ở đây">
-
-        </EditText>
-
+            android:layout_height="match_parent"
+            android:hint="Mời nhập một con số ở đây"
+            android:gravity="center_vertical|start"
+            android:paddingLeft="10dp"/>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:padding="5dp"
