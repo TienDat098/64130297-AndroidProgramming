@@ -5,6 +5,7 @@
     android:id="@+id/ConstraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#69F0AE"
     tools:context=".MainActivity" >
 
     <TextView
@@ -24,6 +25,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="192dp"
         android:ems="10"
+        android:hint="Nhập vào một con số"
+        android:gravity="center"
         android:inputType="text"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent" />
@@ -44,6 +47,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="56dp"
+        android:hint="Nhập vào một con số"
+        android:gravity="center"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintStart_toEndOf="@+id/textView2"
@@ -80,6 +85,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:ems="10"
+        android:hint="Kết quả hiển thị ở đây"
+        android:gravity="center"
         android:inputType="number"
         app:layout_constraintStart_toEndOf="@+id/textView3"
         app:layout_constraintTop_toBottomOf="@+id/btnCong" />

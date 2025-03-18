@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         //Lấy dữ liệu về ở điều khiển số b
         String strB =editTextSoB.getText().toString();//strB="4"
         //Chuyển dữ liệu sang dạng số
-        int so_A=Integer.parseInt(strA);//2
+        int so_A=Integer.parseInt(strA);
         int so_B=Integer.parseInt(strB);//4
         //Tính toán theo yêu cầu
         int tong=  so_A + so_B;//6
