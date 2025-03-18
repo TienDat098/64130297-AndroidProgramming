@@ -15,7 +15,8 @@
 
 <div>
   <h4>EX3: <a href = "https://github.com/TienDat098/64130297-AndroidProgramming/tree/main/AppCong/app/src/main">APP_TínhTổng</a></h4>
-  <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/anhcong.png" width = "200">
+  <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/anhex3_3.png" width = "200">
+  <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/anhex3_2.png" width = "200">
 </div>
 
 
