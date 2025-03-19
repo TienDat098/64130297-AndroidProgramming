@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/homeTittle"
+        android:text="Home"
+        android:textSize="36sp"
+        android:textColor="@color/lavender"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:id="@+id/homeImage"
+        android:layout_below="@id/homeTittle"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/anhhome"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhà ở hiện đại"
+        android:textSize="36sp"
+        android:textColor="@color/lavender"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/homeImage"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
