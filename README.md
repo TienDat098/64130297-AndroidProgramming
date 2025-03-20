@@ -90,6 +90,10 @@
 <div>
   <h4>EX: <a href = "https://github.com/TienDat098/64130297-AndroidProgramming/tree/main/Figma_dongian1/app/src/main">Figma_dongian1</a></h4>
   <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/figma_dg1.png" width = "200">
+   <img src = " https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/figma_dg2.png" width = "200">
+
+
+ 
 
 </div>
 
