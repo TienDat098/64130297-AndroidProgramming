@@ -15,6 +15,7 @@
         android:layout_height="100dp"
         android:id="@+id/textView1"
         android:text="Math is Fun!"
+        android:fontFamily="@font/poppins_semibold"
         android:textSize="55dp"
         android:gravity="center"
         android:layout_marginTop="2dp"
@@ -32,22 +33,24 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_gravity="center">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:text="Hello Manu"
-        android:textSize="36sp"
-        android:textColor="@color/mau_hello"
-        android:layout_gravity="center"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView3"
-        android:text="Select Language"
-        android:textSize="50dp"
-        android:layout_gravity="center"
-        android:textColor="@color/orange"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:text="Hello Manu"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="36sp"
+            android:textColor="@color/mau_hello"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:text="Select Language"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            android:textColor="@color/orange"/>
 
     </LinearLayout>
 
@@ -72,8 +75,11 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:id="@+id/textView4"
                 android:text="English"
-                android:textSize="24sp"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_semibold"
                 android:textColor="@color/font_card1"
                 android:gravity="center"
                 android:padding="8dp" />
@@ -91,7 +97,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="ಕನ್ನಡ"
-                android:textSize="24sp"
+                android:id="@+id/textView5"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_semibold"
                 android:textColor="@color/font_card1_2"
                 android:gravity="center"
                 android:padding="8dp" />
@@ -109,7 +118,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="मराठी"
-                android:textSize="24sp"
+                android:id="@+id/textView6"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="40sp"
+                android:textStyle="bold"
                 android:textColor="@color/font_card2"
                 android:gravity="center"
                 android:padding="8dp" />
@@ -127,7 +139,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="हिन्दी"
-                android:textSize="24sp"
+                android:id="@+id/textView7"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="40sp"
+                android:textStyle="bold"
                 android:textColor="@color/font_card2_1"
                 android:gravity="center"
                 android:padding="8dp" />
