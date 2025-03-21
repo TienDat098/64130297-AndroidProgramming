@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#EE8B60</color>
+    <color name="bg_header">#FBDAB1</color>
+    <color name="mau_hello">#607D8B</color>
+    <color name="card1">#B4F8C8</color>
+    <color name="card1_2">#A0E7E5</color>
+    <color name="card2">#FFAEBC</color>
+    <color name="card2_1">#FBE7C6</color>
+    <color name="font_card1">#18B74B</color>
+    <color name="font_card1_2">#1BA7A6</color>
+    <color name="font_card2">#BE3E53</color>
+    <color name="font_card2_1">#EDC463</color>
+</resources>
