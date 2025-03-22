@@ -1,10 +1,153 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MatchActivity">
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/textView1"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Math is Fun!"
+        android:textSize="55dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/orange"
+        android:background="@color/bg_header"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img1"
+        android:src="@drawable/anh1"
+        android:layout_gravity="end"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Match shape with its name."
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#FF7F50"
+        android:gravity="center"
+        android:layout_marginTop="16dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Shapes -->
+        <ImageView
+            android:id="@+id/square"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/square"
+            android:layout_alignParentStart="true"/>
+
+        <ImageView
+            android:id="@+id/arrow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/square1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:translationX="-40dp"
+            android:rotation="-10"/>
+        <ImageView
+            android:id="@+id/arrow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/triangle1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:translationX="-40dp"
+            android:rotation="15"/>
+
+        <ImageView
+            android:id="@+id/star"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/star"
+            android:layout_below="@id/square"
+            android:layout_marginTop="16dp"/>
+
+        <ImageView
+            android:id="@+id/triangle"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/triangle"
+            android:layout_below="@id/star"
+            android:layout_marginTop="16dp"/>
+
+        <ImageView
+            android:id="@+id/circle"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/circle"
+            android:layout_below="@id/triangle"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:id="@+id/triangle_label"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:background="@color/card1_2"
+            android:text="Triangle"
+            android:textSize="30dp"
+            android:padding="8dp"
+            android:textColor="@color/font_triangle"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:id="@+id/circle_label"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@color/font_card2"
+            android:text="Circle"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="@color/card2"
+            android:layout_below="@id/triangle_label"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:id="@+id/star_label"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@color/card2_1"
+            android:text="Star"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="@color/font_card2_1"
+            android:layout_below="@id/circle_label"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:id="@+id/square_label"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="#B4F8C8"
+            android:text="Square"
+            android:textSize="30dp"
+            android:padding="8dp"
+            android:gravity="center"
+            android:textColor="@color/font_card1"
+            android:layout_below="@id/star_label"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</LinearLayout>
