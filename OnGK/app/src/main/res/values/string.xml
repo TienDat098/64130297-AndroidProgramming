@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="math_operations">
+        <item>Cầu lông</item>
+        <item>Bóng chuyền</item>
+        <item>Bóng rổ</item>
+        <item>Đá banh</item>
+    </string-array>
+</resources>
