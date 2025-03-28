@@ -16,7 +16,7 @@
             android:id="@+id/imgProfile"
             android:layout_width="400dp"
             android:layout_height="300dp"
-            android:src="@drawable/anhdep"
+            android:src="@drawable/avata"
             android:scaleType="centerCrop"
             android:layout_marginBottom="16dp" />
 
