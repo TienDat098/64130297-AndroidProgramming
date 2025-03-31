@@ -54,7 +54,7 @@
             android:textSize="18sp"
             android:layout_marginBottom="12dp" />
 
-        <!-- Giới tính -->
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -134,7 +134,7 @@
             android:layout_marginTop="6dp"
             android:layout_marginBottom="16dp">
 
-            <!-- Email -->
+
             <ImageView
                 android:id="@+id/btnEmail"
                 android:layout_width="50dp"
@@ -146,7 +146,7 @@
                 android:background="?attr/selectableItemBackgroundBorderless"
                 />
 
-            <!-- SMS -->
+
             <ImageView
                 android:id="@+id/btnSMS"
                 android:layout_width="50dp"
@@ -158,7 +158,7 @@
                 android:background="?attr/selectableItemBackgroundBorderless"
                 />
 
-            <!-- Phone -->
+
             <ImageView
                 android:id="@+id/btnPhone"
                 android:layout_width="50dp"

@@ -32,6 +32,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     TiemDieuKhien();
+
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent1=new Intent(MainActivity.this,ActivityCau1.class);
+                startActivity(intent1);
+            }
+        });
+
        btn2.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {

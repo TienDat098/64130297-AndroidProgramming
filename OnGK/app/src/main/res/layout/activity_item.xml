@@ -12,6 +12,7 @@
         android:id="@+id/tvSportName"
         android:layout_width="176dp"
         android:layout_height="100dp"
+        android:gravity="center"
         android:textColor="#000"
         android:textSize="24sp"
         android:textStyle="bold" />
