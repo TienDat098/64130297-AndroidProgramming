@@ -16,9 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />-->
-
-
-
+    
     <fragment
         android:id="@+id/frgChanTrang"
         android:name="ntd.fragmentex_statically.FooterFragment"
