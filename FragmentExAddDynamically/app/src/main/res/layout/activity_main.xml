@@ -20,7 +20,6 @@
         app:layout_constraintTop_toTopOf="parent">
 
     </FrameLayout>
-
     <FrameLayout
         android:id="@+id/frameFooterHolder"
         android:layout_width="0dp"
