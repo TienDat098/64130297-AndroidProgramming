@@ -93,13 +93,21 @@
   <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/anh_figma_dg2.png" width = "200">
   <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/anh_figma_dg3.png" width = "200">
   <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/anh_figma_dg4.png" width = "200">
-  
-  
+</div>
 
-  
 
+
+<div>
+  <h4>EX: <a href = "https://github.com/TienDat098/64130297-AndroidProgramming/tree/main/Vidu_Bottom_Navigation_View/app/src/main">Vidu_Bottom_Navigation_View</a></h4>
+  <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/fg1.png" width = "200">
+  <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/fg2.png" width = "200">
+  <img src = "https://github.com/TienDat098/64130297-AndroidProgramming/blob/main/Images/fg3.png" width = "200">
 
 </div>
+
+
+
+
 
 
 
